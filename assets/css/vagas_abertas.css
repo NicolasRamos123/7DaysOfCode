@@ -1,0 +1,46 @@
+.vagas_abertas{
+    padding: 8rem 0;
+}
+.talentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.titulo-vermelho__vagas_abertas{
+    color: var(--botao-vermelho);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+    background: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+
+    width: 125px;
+    height: 28px;
+
+    border-radius: 8px;
+}
+
+.titulo__vagas_abertas{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+
+    color: var(--titulo-sobrenos);
+}
+
+
+.texto__vagas_abertas{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+    color: var(--texto-sobrenos);
+}
+
+.img__vagas_abertas{
+    width: 80%;
+}

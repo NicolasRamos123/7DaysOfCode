@@ -1,0 +1,111 @@
+@media (max-width: 500px){
+    .img__vagas_abertas{
+        width: 99%;
+    }
+
+    .vagas-programar{
+        width: 100%;
+    }
+    .card__vagas{
+        width: 100%;
+    }
+    
+    
+    .formulario__oportunidades-rodape{
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 720px){
+    .metricas-container{
+        grid-template-columns: 80%;
+        grid-gap: 2rem;
+    }
+    .talentos{
+        text-align: center;
+    }
+
+    .vagas-programar{
+        width: 90%;
+        padding: 0 3rem;
+    }
+
+    .colaboradores{
+        margin: 2rem 0 7rem 0;
+    }
+
+    .textos__card{
+        justify-content: space-between;
+    }
+}
+
+
+
+
+@media(max-width: 850px){
+    .nav-list{
+        position: fixed;
+        width: 100%;
+    }
+
+    .container__cabecalho{
+        justify-content: space-between;
+    }
+
+
+    .div-vazia{
+        display: none;
+    }
+
+    .sideMenu {
+        display: initial;
+        visibility: visible;
+    }
+
+    .menu {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -1000px;
+        height: 100vh;
+        background: var(--cor-menu-responsivo);
+        width: 15rem;
+        padding: 2rem;
+        transition: all 2s;
+    }
+    .sign-up{
+        flex-direction: column;
+        position: fixed;
+        top: 75%;
+        right: -1000px;
+        background: var(--cor-menu-responsivo);
+        width: 15rem;
+        padding: 0.5rem 1.1rem;
+        transition: all 2s;
+    }
+
+    .menu, .sign-up {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .menu__li, .sign-up a {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-active {
+        right: 0;
+        box-shadow: -10px 0 10px rgb(0 0 0 / 10%);
+        transition: all 0.5s;
+    }
+
+    .menu__li {
+        margin: 1.3rem 0;
+    }
+
+    .sign-up{
+        box-shadow: none;
+    }
+}

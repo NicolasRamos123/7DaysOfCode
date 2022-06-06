@@ -1,0 +1,57 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+    padding: 3rem 0 0 0;
+}
+
+.vagas-programar{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 50%;
+    margin: 0 auto;
+}
+
+.titulo__vagas{
+    color: var(--titulo-sobrenos);
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card__vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    min-width: 200px;
+    
+    border: 1px solid var(--borda-cards);
+    border-radius: 16px;
+
+    padding: 24px 24px 28px 24px;
+}
+
+.titulo__card{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.textos__card{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.texto__textos{
+    color: var(--texto-sobrenos);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}

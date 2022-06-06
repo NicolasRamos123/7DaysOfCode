@@ -1,0 +1,35 @@
+.metricas-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0 1rem;
+}
+
+.metrica{
+    margin: 0 1rem;
+}
+
+.numero__metricas{
+    font-size: 60px;
+    color: var(--botao-vermelho);
+    font-weight: 600;
+
+    line-height: 72px;
+}
+
+.titulo__metrica{
+    font-weight: 500;
+    font-size: 18px;
+
+    line-height: 28px;
+    color: var(--titulo-sobrenos);
+    margin: 0.3rem 0;
+}
+
+.texto__metrica{
+    font-weight: 400;
+    font-size: 16px;
+
+    line-height: 24px;
+    color: var(--texto-sobrenos);
+}

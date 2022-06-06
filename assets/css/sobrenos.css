@@ -1,0 +1,33 @@
+.container-sobrenos{
+    padding: 3rem 0;
+    text-align: center;
+}
+
+
+.sobrenos__titulo{
+    color: var(--botao-vermelho);
+    margin: 2rem 0 1rem 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.titulo_principal{
+    font-size: 48px;
+    color: var(--titulo-sobrenos);
+    margin: 2rem 0;
+    line-height: 60px;
+}
+
+
+.texto__sobrenos{
+    width: 79%;
+
+    font-style: normal;
+
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    color: var(--texto-sobrenos);
+    line-height: 30px;
+}
